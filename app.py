@@ -21,6 +21,8 @@ class FinanceWindowsApp:
         container = ttk.Frame(self.root, padding=12)
         container.pack(fill="both", expand=True)
 
+        self.status_var = tk.StringVar(value="Pronto para registrar seus dados.")
+
         title = ttk.Label(
             container,
             text="Finanças Simples (Desktop Windows)",
@@ -43,7 +45,6 @@ class FinanceWindowsApp:
         self._build_report_tab()
         self._build_agenda_tab()
 
-        self.status_var = tk.StringVar(value="Pronto para registrar seus dados.")
         status = ttk.Label(container, textvariable=self.status_var, foreground="#1f4e79")
         status.pack(anchor="w", pady=(8, 0))
 
