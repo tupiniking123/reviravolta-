@@ -1,0 +1,2 @@
+# Sem dependências obrigatórias para desktop Windows.
+# Tkinter já vem com o Python padrão no Windows.
