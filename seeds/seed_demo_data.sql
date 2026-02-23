@@ -1,0 +1,1 @@
+-- Adicione dados de demonstração conforme necessidade após criação de usuários/fazendas via API.
